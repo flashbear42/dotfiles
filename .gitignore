@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,emacs,vim
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,emacs,vim
+# Created by https://www.toptal.com/developers/gitignore/api/macos,homebrew,emacs,vim
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,homebrew,emacs,vim
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -51,6 +51,9 @@ flycheck_*.el
 # network security
 /network-security.data
 
+
+### Homebrew ###
+Brewfile.lock.json
 
 ### macOS ###
 # General
@@ -105,4 +108,4 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,emacs,vim
+# End of https://www.toptal.com/developers/gitignore/api/macos,homebrew,emacs,vim
