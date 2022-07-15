@@ -1,0 +1,9 @@
+[user]
+	name = flashbear42
+	email = slothbear612@gmail.com
+[init]
+	defaultBranch = main
+[alias]
+	lg = log --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'[%Cred%h%Creset]%C(yellow)%d%Creset %s %C(green)(%ad) %C(white)by %C(bold blue)%an%Creset'
+[core]
+	excludesfile = /Users/seungjun/.gitignore_global

@@ -1,0 +1,44 @@
+" Make Vim more useful
+set nocompatible
+
+filetype plugin indent on
+syntax on
+
+" Allow backspace in insert mode
+set backspace=indent,eol,start
+
+" Enable line numbers
+set number
+" Always show status line
+set laststatus=2
+" Show the cursor position
+set ruler
+
+filetype indent on
+
+" Use UTF-8 without BOM
+set encoding=utf-8 nobomb
+
+" Highlight searches
+set hlsearch
+" Ignore case of searches
+set ignorecase
+" Highlight dynamically as pattern is typed
+set incsearch
+
+" Highlight current line
+set cursorline
+
+
+set autoindent
+" Make tabs as wide a 4-spaces
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
+set nowrap
+
+" Show the current mode
+set showmode
+
