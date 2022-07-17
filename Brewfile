@@ -20,6 +20,7 @@ brew "eddieantonio/eddieantonio/imgcat"
 # development tools
 brew "git"
 brew "git-lfs"
+brew "gh"
 brew "asdf"
 
 # nerd font
