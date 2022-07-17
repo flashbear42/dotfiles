@@ -1,35 +1,36 @@
-# tap
-tap 'jakehilborn/jakehilborn'
-tap 'homebrew/cask-fonts'
+# taps
+tap "eddieantonio/eddieantonio"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
 
-# fish
-brew 'fish'
-brew 'starship'
+$ fish
+brew "fish"
+brew "starship"
 
-# git
-brew 'git'
-brew 'git-lfs'
+# alternatives
+brew "bat"
+brew "difftastic"  
+brew "fd"
+brew "glances"
+brew "tree"
+brew "eddieantonio/eddieantonio/imgcat"
 
-# utilities
-brew 'bat'
-brew 'fd'
-brew 'tree'
-brew 'glances'
-brew 'difftastic'
-#brew 'jakehilborn/jakehilborn/displayplacer'
+# development tools
+brew "git"
+brew "git-lfs"
+brew "asdf"
 
-# garage
-brew 'asdf'
+# nerd font
+cask "font-bitstream-vera-sans-mono-nerd-font"
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
 
-# casks
-cask 'amethyst'
-cask 'docker'
-cask 'emacs'
-cask 'iterm2'
-cask 'karabiner-elements'
+# 3rd. parties
+cask "amethyst"
+cask "docker"
+cask "emacs"
+cask "iterm2"
+cask "karabiner-elements"
 
-
-# fonts
-cask 'font-bitstream-vera-sans-mono-nerd-font'
-cask 'font-hack-nerd-font'
-cask 'font-jetbrains-mono-nerd-font'
